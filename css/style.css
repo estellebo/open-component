@@ -1,0 +1,93 @@
+/* Fonts */
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700");
+@import url("https://use.fontawesome.com/releases/v5.0.10/css/all.css");
+
+/* Components */
+/* @import url("components/name_of_component.css"); */
+@import url("components/btn.css");
+
+
+body {
+  margin: 0;
+  margin-bottom: 100px;
+  font-family: "Open Sans", "Helvetica", "sans-serif";
+  background-image:url("https://images.pexels.com/photos/1353938/pexels-photo-1353938.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
+  background-position: center center;
+  background-size: cover;
+}
+
+a{
+  text-decoration: none;
+}
+
+.text-center {
+  text-align: center;
+}
+.container {
+  max-width: 700px;
+  background-color: white;
+  margin: 150px auto;
+  box-shadow: 4px 4px 20px 1px rgba(0,0,0,0.7);
+}
+
+.block{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.block2{
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  margin: 0 50px;
+}
+
+.block2 img{
+  margin-right: 20px;
+}
+
+/*.block2 img .select{
+  margin-right: 20px;
+}*/
+
+.content{
+  padding: 0 10 0 30;
+  height: 300px;
+}
+
+.right{
+  text-align: right;
+}
+
+.center{
+  text-align: center;
+  margin-top: 50px;
+}
+
+.fa-star{
+  font-size: 15px;
+}
+
+.small-text{
+  font-size: 15px;
+  font-weight: lighter;
+  font-family: "Roboto", "Helvetica", "sans-serif";
+}
+
+.select{
+  border: solid 2px grey;
+}
+
+img{
+  box-shadow: 1px 1px 5px rgba(0,0,0,0.2);
+}
+
+
+.fa-heart{
+  position: relative;
+  font-size: 25px;
+  top: 60px;
+  left: 39px;
+}
